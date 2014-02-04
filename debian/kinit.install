@@ -1,0 +1,5 @@
+usr/bin/
+usr/lib/*/kde5/libexec/klauncher
+usr/lib/*/kde5/libexec/start_kdeinit
+usr/lib/*/kde5/libexec/start_kdeinit_wrapper
+usr/lib/*/libkdeinit5_klauncher.so

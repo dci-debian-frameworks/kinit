@@ -1,0 +1,10 @@
+Index: kinit-4.95.0/src/klauncher/CMakeLists.txt
+===================================================================
+--- kinit-4.95.0.orig/src/klauncher/CMakeLists.txt	2013-12-29 09:41:37.000000000 +0000
++++ kinit-4.95.0/src/klauncher/CMakeLists.txt	2014-01-29 13:28:53.597394840 +0000
+@@ -26,4 +26,4 @@
+ 
+ install(TARGETS kdeinit_klauncher ${INSTALL_TARGETS_DEFAULT_ARGS})
+ install(TARGETS klauncher DESTINATION ${LIBEXEC_INSTALL_DIR} )
+-install(FILES ${CMAKE_CURRENT_BINARY_DIR}/org.kde.KLauncher.xml DESTINATION ${DBUS_INTERFACES_INSTALL_DIR} )
++install(FILES ${CMAKE_CURRENT_BINARY_DIR}/org.kde.KLauncher.xml DESTINATION ${DBUS_INTERFACES_INSTALL_DIR} RENAME kf5_org.kde.KLauncher.xml)
