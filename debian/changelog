@@ -1,3 +1,9 @@
+kinit (4.96.0-0ubuntu1) UNRELEASED; urgency=medium
+
+  * New upstream alpha release 
+
+ -- Scarlett Clark <scarlett@scarlettgatelyclark.com>  Fri, 21 Feb 2014 10:05:01 -0800
+
 kinit (4.95.0-0ubuntu1) trusty; urgency=low
 
   * Initial release

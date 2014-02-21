@@ -1,0 +1,2 @@
+#linked libkdeinit5_klauncher.so to libkdeinit5.so to prevent file conflict
+kinit: dev-pkg-without-shlib-symlink 

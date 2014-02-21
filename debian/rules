@@ -4,4 +4,9 @@
 include /usr/share/pkg-kde-tools/qt-kde-team/2/debian-qt-kde.mk
 
 override_dh_strip:
-	dh_strip --dbg-package=kinit-dbg
+	$(overridden_command) --dbg-package=kinit-dbg
+
+override_dh_link:
+	# fix lintian warning dev-pkg-without-shlib-symlink
+	$(overridden_command) -pkinit-dev usr/lib/$(DEB_HOST_MULTIARCH)/libkdeinit5_klauncher.so.0.0.0 usr/lib/$(DEB_HOST_MULTIARCH)/libkdeinit5.so
+	$(overridden_command) --remaining-packages
