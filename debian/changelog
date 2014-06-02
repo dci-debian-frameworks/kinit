@@ -5,7 +5,7 @@ kinit (4.99.0-0ubuntu1) trusty; urgency=medium
 
   [ Scarlett Clark ]
   * Add missing depend
-  * Fix install paths 
+  * Fix install paths
 
  -- Jonathan Riddell <jriddell@ubuntu.com>  Mon, 05 May 2014 15:39:57 +0100
 
