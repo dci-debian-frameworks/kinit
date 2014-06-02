@@ -1,5 +1,8 @@
 kinit (4.99.0-0ubuntu1) trusty; urgency=medium
 
+  [ José Manuel Santamaría Lema ]
+  * Re-add -dev package after a faulty wrap-and-sort.
+
   [ Jonathan Riddell ]
   * New upstream beta release
 
