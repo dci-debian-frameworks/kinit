@@ -51,8 +51,8 @@ License: LGPL-2.1+ accepted by the membership of KDE e.V.
 
 Files: src/kdeinit/proctitle.cpp
        src/kdeinit/proctitle.h
-       debian/*     
-Copyright: 2007 The ProFTPD Project team           
+       debian/*
+Copyright: 2007 The ProFTPD Project team
            2007 Alex Merry <alex.merry@kdemail.net>
            2014 Scarlett Clark <scarlett@scarlettgatelyclark.com>
 License: GPL-2+
