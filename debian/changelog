@@ -5,7 +5,16 @@ kinit (4.100.0-0ubuntu1) UNRELEASED; urgency=medium
 
   [ Scarlett Clark ]
   * Bump depends versions
-  * Bump depends versions
+
+  [ Harald Sitter ]
+  * Install localization to kinit package
+  * Add kinit.lintian-overrides
+    - package-name-doesnt-match-sonames
+    - binary-without-manpage (x4)
+    - shlib-without-versioned-soname
+    - postinst-must-call-ldconfig
+    - dev-pkg-without-shlib-symlink
+  * Build depend on libcap2-bin for the setcap excutable
 
  -- Jonathan Riddell <jriddell@ubuntu.com>  Mon, 02 Jun 2014 13:40:29 +0100
 
