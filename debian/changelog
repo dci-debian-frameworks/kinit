@@ -17,6 +17,7 @@ kinit (4.100.0-0ubuntu1) UNRELEASED; urgency=medium
   * Build depend on libcap2-bin for the setcap excutable
   * Remove useless Pre-Depends fields used for multiarch compat in
     releases older than trusty
+  * Remove incorrect Section fields
 
  -- Jonathan Riddell <jriddell@ubuntu.com>  Mon, 02 Jun 2014 13:40:29 +0100
 
