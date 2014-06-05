@@ -73,7 +73,6 @@ Description: process launcher to speed up launching KDE applications
  a typical KDE applications 2.5 times faster (100ms
  instead of 250ms on a P-III 500) It reduces memory
  consumption by approx. 350Kb per application.
-Pre-Depends: ${misc:Pre-Depends}
 
 Package: kinit-dbg
 Priority: extra
