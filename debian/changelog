@@ -14,7 +14,7 @@ kinit (4.100.0-0ubuntu1) UNRELEASED; urgency=medium
     - shlib-without-versioned-soname
     - postinst-must-call-ldconfig
     - dev-pkg-without-shlib-symlink
-  * Build depend on libcap2-bin for the setcap excutable
+  * Build depend on libcap2-bin and libcap-dev 
   * Remove useless Pre-Depends fields used for multiarch compat in
     releases older than trusty
   * Remove incorrect Section fields
