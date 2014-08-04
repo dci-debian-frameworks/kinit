@@ -1,3 +1,9 @@
+kinit (5.1.0-0ubuntu1) UNRELEASED; urgency=medium
+
+  * New upstream release
+
+ -- Scarlett Clark <scarlett@scarlettgatelyclark.com>  Sun, 03 Aug 2014 18:52:28 -0700
+
 kinit (5.0.0-0ubuntu1) utopic; urgency=medium
 
   * Initial stable upstream release
