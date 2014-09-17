@@ -37,7 +37,7 @@ Files: src/klauncher/klauncher_adaptor.cpp
        src/klauncher_cmds.cpp
 Copyright: 2006, 2007 Thiago Macieira <thiago@kde.org>
            2006-2008 David Faure <faure@kde.org>
-License: LGPL-2.1+ accepted by the membership of KDE e.V.
+License: LGPL-2.1+
  This library is free software; you can redistribute it and/or
  modify it under the terms of the GNU Lesser General Public
  License as published by the Free Software Foundation; either
@@ -56,6 +56,7 @@ License: LGPL-2.1+ accepted by the membership of KDE e.V.
  .
  On Debian systems, the complete text of the GNU Lesser General
  Public License version 2.1 can be found in "/usr/share/common-licenses/LGPL-2.1".
+Comment: or any later version accepted by the membership of KDE e.V.
 
 Files: src/kdeinit/proctitle.cpp
        src/kdeinit/proctitle.h
