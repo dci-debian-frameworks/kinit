@@ -1,3 +1,3 @@
 version=3
-http://download.kde.org/unstable/frameworks/([\d\.]*)/kinit-(.*)\.tar\.xz
-http://download.kde.org/stable/frameworks/([\d\.]*)/kinit-(.*)\.tar\.xz
+http://download.kde.org/unstable/frameworks/([\d.]+)/kinit-([\d.]+)\.tar\.xz
+http://download.kde.org/stable/frameworks/([\d.]+)/kinit-([\d.]+)\.tar\.xz
