@@ -1,4 +1,4 @@
-kinit (5.6.0-1~) UNRELEASED; urgency=medium
+kinit (5.6.0-1) experimental; urgency=medium
 
   * Prepare initial Debian release.
   * Update build dependencies to build against experimental and to
@@ -8,7 +8,7 @@ kinit (5.6.0-1~) UNRELEASED; urgency=medium
   * Update install files.
   * Update watch file.
 
- -- Maximiliano Curia <maxy@debian.org>  Tue, 27 Jan 2015 16:22:52 +0100
+ -- Maximiliano Curia <maxy@debian.org>  Fri, 30 Jan 2015 15:25:01 +0100
 
 kinit (5.6.0-0ubuntu1) vivid; urgency=medium
 
