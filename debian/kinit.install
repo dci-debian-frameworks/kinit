@@ -8,5 +8,5 @@ usr/lib/*/libexec/kf5/start_kdeinit
 usr/lib/*/libexec/kf5/start_kdeinit_wrapper
 usr/lib/*/libkdeinit5_klauncher.so
 usr/share/locale/*/*/kinit5.mo
-usr/share/man/man8/kdeinit5.8
 usr/share/man/*/man8/kdeinit5.8
+usr/share/man/man8/kdeinit5.8
