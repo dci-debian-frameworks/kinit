@@ -1,8 +1,8 @@
-kinit (5.9.0-0ubuntu1) UNRELEASED; urgency=medium
+kinit (5.9.0-0ubuntu1) vivid; urgency=medium
 
   * New upstream release
 
- -- Scarlett Clark <sgclark@kubuntu.org>  Fri, 10 Apr 2015 10:58:02 -0700
+ -- Scarlett Clark <sgclark@kubuntu.org>  Mon, 13 Apr 2015 23:19:56 +0200
 
 kinit (5.8.0-0ubuntu1) vivid; urgency=medium
 
