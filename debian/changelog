@@ -1,8 +1,8 @@
-kinit (5.9.0-1~) UNRELEASED; urgency=medium
+kinit (5.9.0-1) experimental; urgency=medium
 
   * New upstream release (5.9.0).
 
- -- Maximiliano Curia <maxy@debian.org>  Thu, 16 Apr 2015 10:25:32 +0200
+ -- Maximiliano Curia <maxy@debian.org>  Thu, 23 Apr 2015 08:25:35 +0200
 
 kinit (5.9.0-0ubuntu1) vivid; urgency=medium
 
