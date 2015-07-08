@@ -1,3 +1,9 @@
+kinit (5.11.0-0ubuntu1) UNRELEASED; urgency=medium
+
+  * Vivid backport
+
+ -- Scarlett Clark <sgclark@kubuntu.org>  Wed, 08 Jul 2015 08:21:59 -0700
+
 kinit (5.11.0-1) unstable; urgency=medium
 
   * New upstream release (5.10.0).
@@ -96,7 +102,7 @@ kinit (5.2.0-0ubuntu1) utopic; urgency=medium
 
   [ Scarlett Clark ]
   * Move copyright extra details to comment to silence
-    space-in-std-shortname-in-dep5-copyright lintian error.  
+    space-in-std-shortname-in-dep5-copyright lintian error.
 
  -- Jonathan Riddell <jriddell@ubuntu.com>  Mon, 22 Sep 2014 19:49:27 +0200
 
