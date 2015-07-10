@@ -1,8 +1,16 @@
 kinit (5.12.0-0ubuntu1) UNRELEASED; urgency=medium
 
   * New upstream release
+  * Fix merge, remove unused broken backport.
 
  -- Scarlett Clark <sgclark@kubuntu.org>  Fri, 10 Jul 2015 08:12:47 -0700
+
+kinit (5.11.0-1) unstable; urgency=medium
+
+  * New upstream release (5.10.0).
+  * New upstream release (5.11.0).
+
+ -- Maximiliano Curia <maxy@debian.org>  Mon, 29 Jun 2015 10:19:51 +0200
 
 kinit (5.10.0-0ubuntu1) wily; urgency=medium
 
@@ -95,7 +103,7 @@ kinit (5.2.0-0ubuntu1) utopic; urgency=medium
 
   [ Scarlett Clark ]
   * Move copyright extra details to comment to silence
-    space-in-std-shortname-in-dep5-copyright lintian error.  
+    space-in-std-shortname-in-dep5-copyright lintian error.
 
  -- Jonathan Riddell <jriddell@ubuntu.com>  Mon, 22 Sep 2014 19:49:27 +0200
 
