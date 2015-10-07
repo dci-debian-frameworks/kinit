@@ -1,4 +1,4 @@
-kinit (5.15.0-0ubuntu1) UNRELEASED; urgency=medium
+kinit (5.15.0-0ubuntu1) wily; urgency=medium
 
   [ Scarlett Clark ]
   * Vivid backport
@@ -6,7 +6,7 @@ kinit (5.15.0-0ubuntu1) UNRELEASED; urgency=medium
   [ Jonathan Riddell ]
   * new upstream release
 
- -- Jonathan Riddell <jriddell@ubuntu.com>  Mon, 05 Oct 2015 19:54:53 +0100
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Wed, 07 Oct 2015 13:50:33 +0100
 
 kinit (5.14.0-0ubuntu1) wily; urgency=medium
 
