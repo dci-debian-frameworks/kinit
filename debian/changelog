@@ -1,6 +1,7 @@
 kinit (5.21.0-0ubuntu1) UNRELEASED; urgency=medium
 
   * New upstream release, xenial backport. 
+  * Add missing dep pkg-config. 
 
  -- Scarlett Clark <sgclark@kubuntu.org>  Mon, 25 Apr 2016 19:50:00 -0700
 
