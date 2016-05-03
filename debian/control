@@ -5,23 +5,23 @@ Maintainer: Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Uploaders: Maximiliano Curia <maxy@debian.org>
 Build-Depends: cmake (>= 2.8.12),
                debhelper (>= 9),
-               extra-cmake-modules (>= 5.18.0~),
-               kdoctools-dev (>= 5.18.0~),
-               kio-dev (>= 5.18.0~),
+               extra-cmake-modules (>= 5.19.0~),
+               kdoctools-dev (>= 5.19.0~),
+               kio-dev (>= 5.19.0~),
                libcap-dev [linux-any],
                libcap2-bin [linux-any],
-               libkf5config-dev (>= 5.18.0~),
-               libkf5crash-dev (>= 5.18.0~),
-               libkf5i18n-dev (>= 5.18.0~),
-               libkf5service-dev (>= 5.18.0~),
-               libkf5windowsystem-dev (>= 5.18.0~),
+               libkf5config-dev (>= 5.19.0~),
+               libkf5crash-dev (>= 5.19.0~),
+               libkf5i18n-dev (>= 5.19.0~),
+               libkf5service-dev (>= 5.19.0~),
+               libkf5windowsystem-dev (>= 5.19.0~),
                pkg-config,
                pkg-kde-tools (>= 0.15.15ubuntu1~),
                qtbase5-dev (>= 5.4)
 Standards-Version: 3.9.6
 Homepage: https://projects.kde.org/projects/frameworks/kinit
-Vcs-Browser: http://anonscm.debian.org/cgit/pkg-kde/frameworks/kinit.git
-Vcs-Git: git://anonscm.debian.org/pkg-kde/frameworks/kinit.git
+Vcs-Browser: https://anonscm.debian.org/git/pkg-kde/frameworks/kinit.git
+Vcs-Git: https://anonscm.debian.org/git/pkg-kde/frameworks/kinit.git
 
 Package: kinit-dev
 Section: libdevel
@@ -57,23 +57,3 @@ Description: process launcher to speed up launching KDE applications
  a typical KDE applications 2.5 times faster (100ms
  instead of 250ms on a P-III 500) It reduces memory
  consumption by approx. 350Kb per application.
-
-Package: kinit-dbg
-Priority: extra
-Section: debug
-Architecture: any
-Depends: kinit (= ${binary:Version}), ${misc:Depends}
-Description: process launcher to speed up launching KDE applications
- kdeinit is a process launcher somewhat similar to the
- famous init used for booting UNIX.
- .
- It launches processes by forking and then loading a
- dynamic library which should contain a 'kdemain(...)'
- function.
- .
- Using kdeinit to launch KDE applications makes starting
- a typical KDE applications 2.5 times faster (100ms
- instead of 250ms on a P-III 500) It reduces memory
- consumption by approx. 350Kb per application.
- .
- Contains debug symbols for kinit.
