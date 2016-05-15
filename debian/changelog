@@ -1,6 +1,6 @@
-kinit (5.21.0-1~1.gbpbc287a) UNRELEASED; urgency=medium
+kinit (5.22.0-1~1.gbp819b0d) UNRELEASED; urgency=medium
 
-  ** SNAPSHOT build @bc287a07f956e576d55cbdc3d8b7c522cfe2a88e **
+  ** SNAPSHOT build @819b0d8e76153d61f07f2532b414852945c1d803 **
 
   [ Maximiliano Curia ]
   * Replace the "Historical name" ddeb-migration by its "Modern, clearer" replacement dbgsym-migration.
@@ -9,6 +9,8 @@ kinit (5.21.0-1~1.gbpbc287a) UNRELEASED; urgency=medium
   * debian/control: Update Vcs-Browser and Vcs-Git fields
 
   [ Automatic packaging ]
+  * Update build-deps and deps with the info from cmake
+  * Bump Standards-Version to 3.9.8
   * Update build-deps and deps with the info from cmake
 
   [ Maximiliano Curia ]
@@ -19,7 +21,7 @@ kinit (5.21.0-1~1.gbpbc287a) UNRELEASED; urgency=medium
 
   [ Maximiliano Curia ]
 
- -- Maximiliano Curia <maxy@gnuservers.com.ar>  Sun, 10 Apr 2016 09:23:19 +0200
+ -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Sun, 15 May 2016 14:23:11 +0200
 
 kinit (5.19.0-1) experimental; urgency=medium
 
