@@ -1,12 +1,13 @@
-kinit (5.22.0-1~1.gbp819b0d) UNRELEASED; urgency=medium
+kinit (5.22.0-1~2.gbp7fdb95) UNRELEASED; urgency=medium
 
-  ** SNAPSHOT build @819b0d8e76153d61f07f2532b414852945c1d803 **
+  ** SNAPSHOT build @7fdb95606bdb29f7fdf247d9ea83becde16fbb95 **
 
   [ Maximiliano Curia ]
   * Replace the "Historical name" ddeb-migration by its "Modern, clearer" replacement dbgsym-migration.
   * Add upstream metadata (DEP-12)
   * debian/control: Update Vcs-Browser and Vcs-Git fields
   * debian/control: Update Vcs-Browser and Vcs-Git fields
+  * Add new libkdeinit5_klauncher lintian-override
 
   [ Automatic packaging ]
   * Update build-deps and deps with the info from cmake
@@ -21,7 +22,7 @@ kinit (5.22.0-1~1.gbp819b0d) UNRELEASED; urgency=medium
 
   [ Maximiliano Curia ]
 
- -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Sun, 15 May 2016 14:23:11 +0200
+ -- Maximiliano Curia <maxy@gnuservers.com.ar>  Tue, 17 May 2016 14:10:59 +0200
 
 kinit (5.19.0-1) experimental; urgency=medium
 
