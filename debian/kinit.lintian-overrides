@@ -6,3 +6,4 @@ kinit: binary-without-manpage usr/bin/kwrapper5
 kinit: shlib-without-versioned-soname usr/lib/*/libkdeinit5_klauncher.so libkdeinit5_klauncher.so
 kinit: postinst-must-call-ldconfig usr/lib/*/libkdeinit5_klauncher.so
 kinit: dev-pkg-without-shlib-symlink usr/lib/*/libkdeinit5_klauncher.so usr/lib/*/libkdeinit5_klauncher.so
+kinit: package-must-activate-ldconfig-trigger usr/lib/*/libkdeinit5_klauncher.so
