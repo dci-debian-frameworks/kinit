@@ -1,13 +1,11 @@
-kinit (5.23.0-1~2.gbpe8f0c8) UNRELEASED; urgency=medium
+kinit (5.23.0-1) unstable; urgency=medium
 
-  ** SNAPSHOT build @e8f0c8a03a8399a8b537d39a6f8a68a7c02570dd **
-
+  [ Automatic packaging ]
   * Update build-deps and deps with the info from cmake
   * New upstream release. (Closes: 827476) Thanks to Moritz Muehlenhoff for
     reporting.
-  * UNRELEASED
 
- -- Automatic packaging <jenkins@gnuservers.com.ar>  Sun, 19 Jun 2016 23:23:11 +0200
+ -- Maximiliano Curia <maxy@debian.org>  Wed, 22 Jun 2016 17:49:13 +0200
 
 kinit (5.22.0-1) unstable; urgency=medium
 
