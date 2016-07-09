@@ -1,3 +1,11 @@
+kinit (5.24.0-1~1.gbp2748c0) UNRELEASED; urgency=medium
+
+  ** SNAPSHOT build @2748c0bbb7a144b5f4709f15dda75a1057f0a960 **
+
+  * Update build-deps and deps with the info from cmake
+
+ -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Sat, 09 Jul 2016 14:23:11 +0200
+
 kinit (5.23.0-1) unstable; urgency=medium
 
   [ Automatic packaging ]
