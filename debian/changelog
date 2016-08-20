@@ -1,17 +1,12 @@
-kinit (5.25.0-1~2.gbp71f743) UNRELEASED; urgency=medium
-
-  ** SNAPSHOT build @71f7435ccdcf4b335e5208b17e9f998d1b461a1b **
+kinit (5.25.0-1) unstable; urgency=medium
 
   [ Automatic packaging ]
-  ** SNAPSHOT build @fe95afc8282227704c81b2dd0822f09cff03200b **
-
-  * Update build-deps and deps with the info from cmake
   * Update build-deps and deps with the info from cmake
 
   [ Maximiliano Curia ]
   * Bump group breaks (5.25)
 
- -- Maximiliano Curia <maxy@gnuservers.com.ar>  Wed, 17 Aug 2016 22:23:21 +0200
+ -- Maximiliano Curia <maxy@debian.org>  Sat, 20 Aug 2016 16:50:32 +0200
 
 kinit (5.23.0-1) unstable; urgency=medium
 
