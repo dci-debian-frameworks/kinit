@@ -1,3 +1,11 @@
+kinit (5.26.0-1~1.gbpba6f53) UNRELEASED; urgency=medium
+
+  ** SNAPSHOT build @ba6f53d4e056fe9b67e6a2bece115934d25a7729 **
+
+  * Update build-deps and deps with the info from cmake
+
+ -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Sat, 10 Sep 2016 14:23:36 +0200
+
 kinit (5.25.0-1) unstable; urgency=medium
 
   [ Automatic packaging ]
