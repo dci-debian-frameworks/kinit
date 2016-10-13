@@ -5,16 +5,16 @@ Maintainer: Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Uploaders: Maximiliano Curia <maxy@debian.org>
 Build-Depends: cmake (>= 2.8.12),
                debhelper (>= 9),
-               extra-cmake-modules (>= 5.25.0~),
+               extra-cmake-modules (>= 5.26.0~),
                kdoctools-dev (>= 5.25.0~),
-               kio-dev (>= 5.25.0~),
+               kio-dev (>= 5.26.0~),
                libcap-dev [linux-any],
                libcap2-bin [linux-any],
-               libkf5config-dev (>= 5.25.0~),
-               libkf5crash-dev (>= 5.25.0~),
-               libkf5i18n-dev (>= 5.25.0~),
-               libkf5service-dev (>= 5.25.0~),
-               libkf5windowsystem-dev (>= 5.25.0~),
+               libkf5config-dev (>= 5.26.0~),
+               libkf5crash-dev (>= 5.26.0~),
+               libkf5i18n-dev (>= 5.26.0~),
+               libkf5service-dev (>= 5.26.0~),
+               libkf5windowsystem-dev (>= 5.26.0~),
                pkg-config,
                pkg-kde-tools (>= 0.15.15ubuntu1~),
                qtbase5-dev (>= 5.5.0~)
@@ -41,7 +41,7 @@ Description: process launcher to speed up launching KDE applications
  consumption by approx. 350Kb per application.
  .
  Contains development files for kinit.
-Breaks: libkf5kdelibs4support-dev (<< 5.25)
+Breaks: libkf5kdelibs4support-dev (<< 5.26)
 
 Package: kinit
 Architecture: any
