@@ -41,7 +41,7 @@ Description: process launcher to speed up launching KDE applications
  consumption by approx. 350Kb per application.
  .
  Contains development files for kinit.
-Breaks: libkf5kdelibs4support-dev (<< 5.26)
+Breaks: libkf5kdelibs4support-dev (<< 5.27)
 
 Package: kinit
 Architecture: any
