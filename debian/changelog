@@ -1,8 +1,14 @@
-kinit (5.28.0-1~1.gbp5c2ac1) UNRELEASED; urgency=medium
+kinit (5.28.0-1~2.gbpdf891f) UNRELEASED; urgency=medium
 
+  ** SNAPSHOT build @df891fce2655ae9f1bfbf1b8d648f60820b59f2b **
+
+  [ Automatic packaging ]
   ** SNAPSHOT build @5c2ac1362177555609320bbdc1a30803ccfae65f **
 
   * Update build-deps and deps with the info from cmake
+
+  [ Maximiliano Curia ]
+  * Update the not-installed file
 
  -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Tue, 15 Nov 2016 14:23:26 +0100
 
