@@ -1,16 +1,14 @@
-kinit (5.28.0-1~2.gbpdf891f) UNRELEASED; urgency=medium
-
-  ** SNAPSHOT build @df891fce2655ae9f1bfbf1b8d648f60820b59f2b **
+kinit (5.28.0-1) unstable; urgency=medium
 
   [ Automatic packaging ]
-  ** SNAPSHOT build @5c2ac1362177555609320bbdc1a30803ccfae65f **
-
   * Update build-deps and deps with the info from cmake
 
   [ Maximiliano Curia ]
+  * New upstream release (5.28)
   * Update the not-installed file
+  * Bump group breaks (5.28)
 
- -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Tue, 15 Nov 2016 14:23:26 +0100
+ -- Maximiliano Curia <maxy@debian.org>  Fri, 18 Nov 2016 16:06:15 +0100
 
 kinit (5.27.0-1) unstable; urgency=medium
 
