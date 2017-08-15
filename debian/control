@@ -16,11 +16,27 @@ Build-Depends: cmake (>= 3.0~),
                libkf5service-dev (>= 5.37.0~),
                libkf5windowsystem-dev (>= 5.37.0~),
                pkg-kde-tools (>= 0.15.15ubuntu1~),
-               qtbase5-dev (>= 5.7.0~)
+               qtbase5-dev (>= 5.7.0~),
 Standards-Version: 4.0.1
 Homepage: https://projects.kde.org/projects/frameworks/kinit
 Vcs-Browser: https://anonscm.debian.org/git/pkg-kde/frameworks/kinit.git
 Vcs-Git: https://anonscm.debian.org/git/pkg-kde/frameworks/kinit.git
+
+Package: kinit
+Architecture: any
+Depends: ${misc:Depends}, ${shlibs:Depends}
+Description: process launcher to speed up launching KDE applications
+ kdeinit is a process launcher somewhat similar to the
+ famous init used for booting UNIX.
+ .
+ It launches processes by forking and then loading a
+ dynamic library which should contain a 'kdemain(...)'
+ function.
+ .
+ Using kdeinit to launch KDE applications makes starting
+ a typical KDE applications 2.5 times faster (100ms
+ instead of 250ms on a P-III 500) It reduces memory
+ consumption by approx. 350Kb per application.
 
 Package: kinit-dev
 Section: libdevel
@@ -41,19 +57,3 @@ Description: process launcher to speed up launching KDE applications
  .
  Contains development files for kinit.
 Breaks: libkf5kdelibs4support-dev (<< 5.37)
-
-Package: kinit
-Architecture: any
-Depends: ${misc:Depends}, ${shlibs:Depends}
-Description: process launcher to speed up launching KDE applications
- kdeinit is a process launcher somewhat similar to the
- famous init used for booting UNIX.
- .
- It launches processes by forking and then loading a
- dynamic library which should contain a 'kdemain(...)'
- function.
- .
- Using kdeinit to launch KDE applications makes starting
- a typical KDE applications 2.5 times faster (100ms
- instead of 250ms on a P-III 500) It reduces memory
- consumption by approx. 350Kb per application.
