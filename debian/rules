@@ -5,3 +5,10 @@ include /usr/share/pkg-kde-tools/qt-kde-team/3/debian-qt-kde.mk
 
 override_dh_strip:
 	$(overridden_command) --dbgsym-migration='kinit-dbg (<= 5.19.0-1~~)'
+
+debian/%.postinst: debian/%.postinst.in
+	rm -f $@
+	sed 's/#MULTIARCH#/$(DEB_HOST_MULTIARCH)/g' $< > $@
+
+override_dh_auto_configure: debian/kinit.postinst
+	$(overridden_command)
