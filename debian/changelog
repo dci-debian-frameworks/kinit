@@ -1,10 +1,11 @@
-kinit (5.42.0-3~) UNRELEASED; urgency=medium
+kinit (5.42.0-3) sid; urgency=medium
 
   * New revision
   * Add pkg-config as a build dep
   * Set start_kdeinit capabilities in postinst
+  * Release to sid
 
- -- Maximiliano Curia <maxy@debian.org>  Sun, 11 Feb 2018 11:14:03 +0100
+ -- Maximiliano Curia <maxy@debian.org>  Mon, 12 Feb 2018 08:46:35 +0100
 
 kinit (5.42.0-2) sid; urgency=medium
 
