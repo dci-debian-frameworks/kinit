@@ -1,9 +1,10 @@
-kinit (5.42.0-4~) UNRELEASED; urgency=medium
+kinit (5.42.0-4) sid; urgency=medium
 
   * Fix typo in the postinst.in file. (Closes: 890261)
     Thanks to Sven-Haegar Koch for the quick report.
+  * Release to sid
 
- -- Maximiliano Curia <maxy@debian.org>  Mon, 12 Feb 2018 18:03:56 +0100
+ -- Maximiliano Curia <maxy@debian.org>  Mon, 12 Feb 2018 18:25:30 +0100
 
 kinit (5.42.0-3) sid; urgency=medium
 
