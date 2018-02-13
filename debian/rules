@@ -11,7 +11,9 @@ DEB_HOST_MULTIARCH ?= $(shell dpkg-architecture -qDEB_HOST_MULTIARCH)
 override_dh_strip:
 	dh_strip --dbgsym-migration='kinit-dbg (<= 5.19.0-1~~)'
 
-override_dh_installdeb:
-	sed 's/#DEB_HOST_MULTIARCH#/$(DEB_HOST_MULTIARCH)/' \
-	    debian/kinit.postinst.in > debian/kinit.postinst
-	dh_installdeb
+debian/%.postinst: debian/%.postinst.in
+       rm -f $@
+       sed 's/#MULTIARCH#/$(DEB_HOST_MULTIARCH)/g' $< > $@
+
+override_dh_auto_configure: debian/kinit.postinst
+       $(overridden_command)
