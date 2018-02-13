@@ -1,6 +1,8 @@
 #!/bin/sh
 
 set -e
+
+if [ "$1" = configure ]; then
     # Try to setcap or fall back to setuid.
     # The specific setcap invocations also need to be whitelisted to make the
     # build pass (in debian/meta/setcap.yaml as a nested array of argument
